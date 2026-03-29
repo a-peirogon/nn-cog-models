@@ -5,7 +5,7 @@ In the introductory chapter, I mentioned connectionist models as one of the main
 
 There are multiple ways to characterize neural network models. We will cover all the major architectural design traits of each model, like activations functions and learning procedure, but paying particular attention to what was novel or unique about them at the time they were introduced to the field. Keep in mind this is not a comprehensive review, that is left for each chapter, and some concepts may be obscure at this point. Everything will be explained at length later.
 
-<img src="./images/roadmap/roadmap.svg">
+<img style="filter:invert(1)" src="./images/roadmap/roadmap.svg">
 
  **Table 1** summarizes the main characteristics that we will reference in this roadmap.
  
