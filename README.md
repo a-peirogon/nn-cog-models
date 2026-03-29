@@ -1,25 +1,6 @@
 
-# A Roadmap to Neural Network Models of Cognition
 
-In the introductory chapter, I mentioned connectionist models as one of the main approaches in the computational cognitive modeling landscape. This e-book is precisely about this approach to cognition. In this section, I briefly expand on this perspective and lay out a "roadmap" to what comes next in this series. In particular, this roadmap will help you to understand why I selected these models, why they are important to the field, and how they connect to each other from a historical and technical perspective.
-
-There are multiple ways to characterize neural network models. We will cover all the major architectural design traits of each model, like activations functions and learning procedure, but paying particular attention to what was novel or unique about them at the time they were introduced to the field. Keep in mind this is not a comprehensive review, that is left for each chapter, and some concepts may be obscure at this point. Everything will be explained at length later.
-
-<img style="filter:invert(1)" src="./images/roadmap/roadmap.svg">
-
- **Table 1** summarizes the main characteristics that we will reference in this roadmap.
- 
- **Note**: "Real-valued" includes "Binary" values by definition.
-
-| Model                 | Number of neurons | Number of layers | Type of Inputs | Type of Outputs | Learning procedure | Differentiable | Activation function   | Domain                      |
-| --------------------- | ----------------- | ---------------- | -------------- | --------------- | ------------------ | -------------- | --------------------- | :-------------------------- |
-| McCulloch-Pitts       | Single neuron     | Single layer     | Binary         | Binary          | None               | No             | Step                  | Logic                       |
-| Perceptron            | Multiple neurons  | Single layer     | Real-valued | Binary         | Delta rule     | No             | Linear, Threshold                | Linearly-separable                 |
-| Adaline               | Multiple neurons  | Single layer     | Real-valued     | Real-valued      | Gradient-based    | No             | Linear, Threshold                |Linearly-separable                            |
-| Multilayer Perceptron | Multiple neurons  | Multiple layers  | Real-valued     | Real-valued      | Backpropagation    | Yes            | Linear and Non-linear |Classification and regression                            |
-| Recurrent Neural Network         | Multiple neurons  | Multiple layers  | Real-valued     | Real-valued      | Backpropagation Through Time    | Yes            | Linear and Non-linear | Language, Time-series, Sequence-modeling |
-| Convolutional Neural Network | Multiple neurons  | Multiple layers  | Real-valued     | Real-valued      | Backpropagation    | Yes            | Linear and Non-linear | Vision, Video, Time-series, Grid-like data                      |
-
+<img src="./images/roadmap/roadmap.svg">
 
 ## The McCulloch-Pitts artificial neuron: single neurons and logic gates
 
